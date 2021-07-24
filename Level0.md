@@ -29,3 +29,5 @@ use the command `cat` which prints out the data of the file
 <img width="570" alt="Screenshot 2021-07-21 at 6 39 35 PM" src="https://user-images.githubusercontent.com/74819332/126535000-bdcee8d2-b188-4b19-9eaa-929dc3762627.png">
 
 Viola , here's the password to level 1 ( I have attached a file which contains password of every problem ) 
+
+Now Use `exit` command to exit the server 
