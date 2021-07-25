@@ -15,3 +15,8 @@
    `ls -lh` lists out all the files in human readable format 
    
 ## `mkdir dir1` - creates a new directory with name `dir1`
+
+## `file ./*` OR `file *`- lists out the type of every file in the directory <br/>
+   `file ./dir*` - lists out the type of every file within the directory which contains the name `dir` <br/>
+   `file -b ./*` - lists out types in brief mode <br/>
+   
