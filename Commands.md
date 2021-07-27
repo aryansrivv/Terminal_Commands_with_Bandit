@@ -20,3 +20,9 @@
    `file ./dir*` - lists out the type of every file within the directory which contains the name `dir` <br/>
    `file -b ./*` - lists out types in brief mode <br/>
    
+## `find` Command - Searches for a specific or a set of files in a directory or it's hierarchy
+   `.` OR `./` - Current working directory <br/>
+   `-type f` - type of file <br/>
+   `-readable` - matches readable files <br/>
+   `-executable` - looks for files which are executable and directories which are searchable <br/>
+   `-size 1033c` - file uses `1033` units of space , here `c` is for bytes . <br/>
