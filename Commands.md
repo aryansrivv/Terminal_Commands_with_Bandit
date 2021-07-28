@@ -22,7 +22,12 @@
    
 ## `find` Command - Searches for a specific or a set of files in a directory or it's hierarchy
    `.` OR `./` - Current working directory <br/>
+   `/` - Root directory <br/>
    `-type f` - type of file <br/>
    `-readable` - matches readable files <br/>
    `-executable` - looks for files which are executable and directories which are searchable <br/>
    `-size 1033c` - file uses `1033` units of space , here `c` is for bytes . <br/>
+   `-user ABC` - file is owned by user `ABC` <br/>
+   `-group XYZ` - file belongs to group `XYZ` <br/>
+   `2>/dev/null` - removes the permission denied type of files <br/>
+   
