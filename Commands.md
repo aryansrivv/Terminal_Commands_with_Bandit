@@ -31,3 +31,21 @@
    `-group XYZ` - file belongs to group `XYZ` <br/>
    `2>/dev/null` - removes the permission denied type of files <br/>
    
+## `grep` - Used to look for specific word or pattern in a file 
+   ### format --> `grep [options] pattern [files]` <br/>
+   ### options
+   -c : prints the count of the lines that match a pattern <br/>
+   -l : displays list of filename only <br/>
+   -n : display matched lines and their line numbers <br/>
+   -v : prints all those lines which do not match the pattern <br/>
+   -i : Case sensitive search <br/>
+   -w : matches whole word <br/>
+   -e : to look for multiple patterns <br/>
+   -A n : prints searched lines and n lines after the result <br/>
+   -B n : prints searched lines and n lines before the result <br/>
+   -C n : prints searched lines and n lines after and before the result <br/>
+   
+   e.g :::: `grep -l "ARYAN" *` will look for "ARYAN" in every file of that dir <br/>
+       :::: `grep "^ARYAN" file.txt` will look for lines only that start with "ARYAN" in file.txt(to look for lines that end with it use "ARYAN$" )<br/>
+       :::: `grep -e "AR" -e "ARY" -e "ARYA" f1.txt f2.txt` <br/>
+       
